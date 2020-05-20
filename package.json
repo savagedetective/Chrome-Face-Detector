@@ -1,0 +1,23 @@
+{
+  "name": "Chrome-Face-Detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savagedetective/Chrome-Face-Detector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savagedetective/Chrome-Face-Detector/issues"
+  },
+  "homepage": "https://github.com/savagedetective/Chrome-Face-Detector#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
