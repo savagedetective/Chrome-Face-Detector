@@ -12,3 +12,14 @@ const faceDetector = new window.FaceDetector();
 
 console.log(video, canvas, faceCanvas, faceDetector);
 
+//write function to populate users video
+
+async function populateVideo() {
+    const stream = await navigator.mediaDevices.getUserMedia({
+        video: {width: 1280, height: 720}
+    });
+    console.log(stream);
+}
+
+console.log(populateVideo);
+populateVideo();
