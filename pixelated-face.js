@@ -10,4 +10,5 @@ const faceCtx = canvas.getContext("2d")
 
 const faceDetector = new window.FaceDetector();
 
-console.log(video, canvas, faceCanvas, faceDetector)
+console.log(video, canvas, faceCanvas, faceDetector);
+
