@@ -18,8 +18,17 @@ async function populateVideo() {
     const stream = await navigator.mediaDevices.getUserMedia({
         video: {width: 1280, height: 720}
     });
-    console.log(stream);
-}
+
+    video.srcObject = stream;
+    await video.play();
+
+    //size canvas to match the video
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    faceCanvas.width = video.videoWidth;
+    faceCanvas.height = video.videoHeight;
+
+};
 
 console.log(populateVideo);
 populateVideo();
